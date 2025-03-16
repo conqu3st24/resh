@@ -1,0 +1,25 @@
+{
+  "short_name": "RESHIP",
+  "name": "RESHIP - Магазин геймерских товаров",
+  "icons": [
+    {
+      "src": "images/reship-favicon-from-image.svg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "images/reship-favicon-from-image.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/reship-favicon-from-image.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0080FF",
+  "background_color": "#ffffff"
+}

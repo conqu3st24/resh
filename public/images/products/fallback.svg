@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#FFFFFF"/>
+  <rect x="50" y="50" width="200" height="200" fill="#E3E7F0" rx="10" ry="10"/>
+  <text x="150" y="150" font-family="Arial" font-size="18" text-anchor="middle" fill="#0A6DFF">Товар</text>
+  <text x="150" y="175" font-family="Arial" font-size="14" text-anchor="middle" fill="#0A6DFF">Reship</text>
+</svg>

@@ -1,0 +1,68 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Коробка клавиатуры -->
+  <g>
+    <!-- Коробка -->
+    <rect x="200" y="150" width="400" height="250" rx="10" fill="#ffffff" stroke="#cccccc" stroke-width="2"/>
+    
+    <!-- Дизайн коробки -->
+    <rect x="220" y="170" width="360" height="160" rx="5" fill="#ffb6c1" stroke="#e0e0e0" stroke-width="1"/>
+    
+    <!-- Логотип -->
+    <text x="400" y="230" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333333">
+      LEOPOLD
+    </text>
+    <text x="400" y="260" font-family="Arial" font-size="18" text-anchor="middle" fill="#333333">
+      FC750R BT
+    </text>
+    <text x="400" y="290" font-family="Arial" font-size="16" text-anchor="middle" fill="#333333">
+      Light Pink
+    </text>
+    
+    <!-- Информация на коробке -->
+    <rect x="220" y="340" width="360" height="40" rx="5" fill="#f9f9f9" stroke="#e0e0e0" stroke-width="1"/>
+    <text x="400" y="365" font-family="Arial" font-size="12" text-anchor="middle" fill="#666666">
+      Wireless Mechanical Keyboard Cherry MX Red
+    </text>
+  </g>
+  
+  <!-- Клавиатура рядом -->
+  <g transform="translate(600, 300) scale(0.4) rotate(15)">
+    <rect x="-250" y="-100" width="500" height="200" rx="10" fill="#ffb6c1" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Клавиши (миниатюра) -->
+    <g fill="#ffffff" stroke="#e0e0e0" stroke-width="1">
+      <rect x="-230" y="-80" width="20" height="20" rx="2"/>
+      <rect x="-200" y="-80" width="20" height="20" rx="2"/>
+      <rect x="-170" y="-80" width="20" height="20" rx="2"/>
+      <rect x="-140" y="-80" width="20" height="20" rx="2"/>
+      <rect x="-110" y="-80" width="20" height="20" rx="2"/>
+      <rect x="-80" y="-80" width="20" height="20" rx="2"/>
+      <rect x="-50" y="-80" width="20" height="20" rx="2"/>
+      <rect x="-20" y="-80" width="20" height="20" rx="2"/>
+      <rect x="10" y="-80" width="20" height="20" rx="2"/>
+      <rect x="40" y="-80" width="20" height="20" rx="2"/>
+      <rect x="70" y="-80" width="20" height="20" rx="2"/>
+      <rect x="100" y="-80" width="20" height="20" rx="2"/>
+      <rect x="130" y="-80" width="20" height="20" rx="2"/>
+      <rect x="160" y="-80" width="20" height="20" rx="2"/>
+      <rect x="190" y="-80" width="20" height="20" rx="2"/>
+      
+      <rect x="-230" y="-50" width="20" height="20" rx="2"/>
+      <rect x="-200" y="-50" width="20" height="20" rx="2"/>
+      <rect x="-170" y="-50" width="20" height="20" rx="2"/>
+    </g>
+    
+    <!-- Пробел (миниатюра) -->
+    <rect x="-50" y="50" width="150" height="20" rx="2" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  </g>
+  
+  <!-- Надпись -->
+  <text x="400" y="450" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">
+    Leopold FC750R BT Light Pink (с упаковкой)
+  </text>
+  <text x="400" y="490" font-family="Arial" font-size="16" text-anchor="middle" fill="#666666">
+    Изображение 4
+  </text>
+</svg> 

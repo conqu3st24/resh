@@ -1,0 +1,40 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Клавиатура сбоку -->
+  <g>
+    <rect x="150" y="250" width="500" height="30" rx="5" fill="#ffb6c1" stroke="#e0e0e0" stroke-width="2"/>
+    <rect x="150" y="280" width="500" height="70" rx="0" fill="#ffb6c1" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Передняя часть клавиатуры -->
+    <path d="M150,350 L650,350 L650,370 C650,375 645,380 640,380 L160,380 C155,380 150,375 150,370 Z" fill="#ffb6c1" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- Клавиши (вид сбоку) -->
+    <g fill="#ffffff" stroke="#e0e0e0" stroke-width="1">
+      <rect x="170" y="260" width="20" height="20" rx="2"/>
+      <rect x="200" y="260" width="20" height="20" rx="2"/>
+      <rect x="230" y="260" width="20" height="20" rx="2"/>
+      <rect x="260" y="260" width="20" height="20" rx="2"/>
+      <rect x="290" y="260" width="20" height="20" rx="2"/>
+      <rect x="320" y="260" width="20" height="20" rx="2"/>
+      <rect x="350" y="260" width="20" height="20" rx="2"/>
+      <rect x="380" y="260" width="20" height="20" rx="2"/>
+      <rect x="410" y="260" width="20" height="20" rx="2"/>
+      <rect x="440" y="260" width="20" height="20" rx="2"/>
+      <rect x="470" y="260" width="20" height="20" rx="2"/>
+      <rect x="500" y="260" width="20" height="20" rx="2"/>
+      <rect x="530" y="260" width="20" height="20" rx="2"/>
+      <rect x="560" y="260" width="20" height="20" rx="2"/>
+      <rect x="590" y="260" width="20" height="20" rx="2"/>
+      <rect x="620" y="260" width="20" height="20" rx="2"/>
+    </g>
+  </g>
+  
+  <!-- Надпись -->
+  <text x="400" y="450" font-family="Arial" font-size="24" text-anchor="middle" fill="#333333">
+    Leopold FC750R BT Light Pink (вид сбоку)
+  </text>
+  <text x="400" y="490" font-family="Arial" font-size="16" text-anchor="middle" fill="#666666">
+    Изображение 2
+  </text>
+</svg> 

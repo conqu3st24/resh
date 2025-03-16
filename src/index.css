@@ -1,0 +1,136 @@
+@import url('https://db.onlinewebfonts.com/c/8c179713cef50c7a6569545ed27c39e5?family=Century+Gothic');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0A6DFF;
+  --color-secondary: #212121;
+  --color-light-blue: #4993FF;
+  --color-pale-blue: #8AADFF;
+  --color-light-gray: #E3E7F0;
+  --color-text-gray: #949598;
+  --color-background: #FFFFFF;
+  --color-border: #E5E7EB;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-light-gray);
+  color: var(--color-secondary);
+}
+
+h1, h2 {
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+.price, .number {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Стили для цен */
+.old-price {
+  text-decoration: line-through;
+  color: #838383;
+}
+
+.current-price {
+  color: #007bff;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white py-2 px-4 rounded hover:bg-lightBlue transition-colors font-medium;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary py-2 px-4 rounded border border-primary hover:bg-lightGray transition-colors font-medium;
+  }
+  
+  .container {
+    @apply mx-auto px-4 max-w-7xl;
+  }
+  
+  .section {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+  
+  .section-title {
+    @apply text-3xl font-bold mb-6 text-primary font-century tracking-tighter;
+  }
+  
+  .card {
+    @apply bg-white rounded-lg shadow-sm overflow-hidden;
+  }
+  
+  .product-card {
+    @apply bg-white rounded-lg shadow-sm overflow-hidden transition-transform hover:shadow-md;
+  }
+  
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .badge-discount {
+    @apply badge bg-primary text-white;
+  }
+  
+  .badge-new {
+    @apply badge bg-blue-500 text-white;
+  }
+  
+  .badge-preorder {
+    @apply badge bg-black text-white;
+  }
+  
+  .badge-out-of-stock {
+    @apply badge bg-gray-600 text-white;
+  }
+
+  .spacing-ipad {
+    @apply my-48;
+  }
+
+  .spacing-main {
+    @apply my-105;
+  }
+
+  .spacing-large {
+    @apply my-121;
+  }
+  
+  .bg-grid-pattern {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+                      linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
